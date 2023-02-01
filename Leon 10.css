@@ -1,0 +1,29 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  header nav *{
+    float: left;
+  }
+  nav > a, nav > form, nav > h2, nav > ul{
+    width: 10%;
+    margin: 0 5%;
+    list-style: none;
+  }
+  nav > ul > li{
+    width: 25%;
+    margin: 2% 15%;
+  }
+  main > section{
+    width: 50%;
+    height: 600px;
+    float: left;
+  }
+  body {
+    background-color: beige;
+  }
+
+  li {
+    background-color: brown;
+  }

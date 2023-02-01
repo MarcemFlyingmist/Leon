@@ -1,0 +1,14 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  nav,main,section{
+    width: 20%;
+    float :left;
+  }
+  main{
+    width: 50%;
+  }
+  section{
+    width:30%;
+  }

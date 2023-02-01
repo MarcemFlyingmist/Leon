@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  header {
+    height: 75px;
+    background: black;  
+  }
+
+  nav *{
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+  }
+
+  nav ul{
+    width: 50%;
+  }
+
+  nav form{
+    width: 20%;
+  }
+  nav form input{
+    width: 100%;
+  }
+
+  main > section{
+    width:50%;
+    height: 600px;
+    float: left;
+    border: 2px solid black;
+  }
+
+  main + section > section{
+    width: 33.33333%;
+    float: left;
+    border: 2px solid red;
+  }
